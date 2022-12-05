@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: SIMULATIONPAGESTATIC
-      uses: DevGrammo/simulation-static-page-generator@uffa1
+      uses: DevGrammo/simulation-static-page-generator@uffa2
 
 
  
