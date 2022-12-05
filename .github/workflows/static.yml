@@ -5,8 +5,9 @@ jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
-    - name: Deploy static content to Pages
-      uses: DevGrammo/simulation-static-page-generator@alpha-0
+    - name: SIMULATIONPAGESTATIC
+      uses: DevGrammo/simulation-static-page-generator@BUJO
+
 
  
 
