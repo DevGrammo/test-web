@@ -36,6 +36,11 @@ jobs:
          distribution: 'temurin' # See 'Supported distributions' for available options
          java-version: '17'
       - run:  java -jar PageGenerator-1.0-SNAPSHOT-all.jar 
+      
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+         commit_message: Page Generator build
+      
       - name: Setup Pages
         uses: actions/configure-pages@v2
       - name: Upload artifact
