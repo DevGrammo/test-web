@@ -35,7 +35,7 @@ jobs:
         with:
          distribution: 'temurin' # See 'Supported distributions' for available options
          java-version: '17'
-         run:  java -jar PageGenerator-1.0-SNAPSHOT-all.jar 
+      - run:  java -jar PageGenerator-1.0-SNAPSHOT-all.jar 
       - name: Setup Pages
         uses: actions/configure-pages@v2
       - name: Upload artifact
